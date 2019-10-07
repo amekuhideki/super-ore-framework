@@ -11,8 +11,11 @@
         "sort-packages": true
     },
     "autoload": {
+        "psr-4": {
+          "Oira\\": "src/"
+        },
         "files": [
             "src/functions.php"
         ]
-    }
+      }
 }
